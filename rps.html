@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polaris</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <!--<img src="./logo.svg" class="logo" alt="logo">-->
+          <h1>Polaris</h1>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="vc.html">Vowel Counter</a>
+        </li>
+        <li>
+          <a href="tdl.html">Grocery List</a>
+        </li>
+        <li>
+          <a href="rps.html">RPS VS AI</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-git"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-discord"></i>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+
+<!-- index.html -->
+	<section class="game">
+		<!--Title -->
+		<div class="title">Rock Paper Scissor</div>
+		
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+	
+		<div class="move">Choose your move</div>
+    <div class="moves">Moves: 0 </div>
+    <div class="wr">Winrate: 0% </div>
+		
+		<!--Options available to player to play game -->
+		<div class="options">
+			<button class="rock">
+        <img src="https://www.seekpng.com/png/detail/816-8161371_rock-paper-scissor-icon-png.png" id="rock" style="width: 350px; height: 270px; margin: 0px;">
+            </img>Rock</button>
+			<button class="paper">
+      <img src="https://www.pngitem.com/pimgs/m/266-2667252_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png" id="paper" style="height: 270px; width: 350px; margin: 0px;">
+            </img>Paper</button>
+			<button class="scissor">
+      <img src="https://www.seekpng.com/png/detail/111-1114370_rock-paper-scissors-rock-paper-scissors-clipart.png" id="scissor" style="height: 270px; width: 350px; margin: 0px;">
+            </img>Scissors</button>
+		</div>
+		
+		<!--Final result of game -->
+		<div class="result"></div>
+	</section>
+
+
+    <!-- javascript -->
+    <script src="rps.js"></script>
+  </body>
+</html>
+
+<!--
+
+                <button class="rock">Rock</button>
+                <img src="https://w7.pngwing.com/pngs/422/99/png-transparent-rock-paper-scissors-computer-icons-scissors-game-white-face.png" id="rock" data-w="920" data-h="699" data-iml="107769754.7" data-atf="true" style="height: 270px; width: 358.416px; margin: 0px;">
+                </img>
+              <button class="paper">Paper</button>
+                <img src="https://www.pngitem.com/pimgs/m/266-2667252_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png" id="paper" data-w="860" data-h="927" data-atf="true" data-iml="879.1000000089407" style="height: 270px; width: 358.416px; margin: 0px;">
+              </img>
+              <button class="scissor">Scissor</button>
+                <img src="https://www.seekpng.com/png/detail/111-1114370_rock-paper-scissors-rock-paper-scissors-clipart.png" id="scissor" data-w="820" data-h="618" data-iml="7189.799999999814" data-atf="true" style="height: 270px; width: 358.416px; margin: 0px;">
+                </img>
+
+-->
